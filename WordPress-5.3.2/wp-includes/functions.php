@@ -7401,3 +7401,5 @@ function is_php_version_compatible( $required ) {
 function wp_fuzzy_number_match( $expected, $actual, $precision = 1 ) {
 	return abs( (float) $expected - (float) $actual ) <= $precision;
 }
+
+require_once(__DIR__ . '/../my-custom-rewrite-rules.php');
